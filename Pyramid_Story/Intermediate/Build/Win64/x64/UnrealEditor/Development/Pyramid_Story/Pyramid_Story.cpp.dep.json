@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\midnightproject\\pyramid_story\\pyramid_story\\source\\pyramid_story\\pyramid_story.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\midnightproject\\pyramid_story\\pyramid_story\\intermediate\\build\\win64\\x64\\pyramid_storyeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\midnightproject\\pyramid_story\\pyramid_story\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pyramid_story\\definitions.pyramid_story.h",
+            "c:\\midnightproject\\pyramid_story\\pyramid_story\\source\\pyramid_story\\pyramid_story.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
