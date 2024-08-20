@@ -52,10 +52,6 @@ class APyramid_StoryCharacter : public ACharacter
 	UPROPERTY(EditAnywhere)
 	class USpotLightComponent* SpotLight;
 
-	// 문에 가까워지면 선택 UI가 뜸
-
-
-
 public:
 	APyramid_StoryCharacter();
 
@@ -85,6 +81,13 @@ public:
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+
+	// 불켜지는 함수
+	UFUNCTION(BlueprintCallable)
+	void PointTurnOn();
+
+	UFUNCTION(BlueprintCallable)
+	void SpotTurnOn();
 
 };
 

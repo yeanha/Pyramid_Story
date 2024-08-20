@@ -50,6 +50,8 @@ APyramid_StoryCharacter::APyramid_StoryCharacter()
 	SpotLight = CreateDefaultSubobject<USpotLightComponent>(TEXT("SpotLight"));
 	SpotLight->SetupAttachment(S_point);
 
+
+
 }
 
 void APyramid_StoryCharacter::BeginPlay()
@@ -79,6 +81,16 @@ void APyramid_StoryCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 	{
 		UE_LOG(LogTemplateCharacter, Error, TEXT("'%s' Failed to find an Enhanced Input Component! This template is built to use the Enhanced Input system. If you intend to use the legacy system, then you will need to update this C++ file."), *GetNameSafe(this));
 	}
+}
+
+void APyramid_StoryCharacter::PointTurnOn()
+{
+	PointLight->SetIntensity(9000.0f);
+}
+
+void APyramid_StoryCharacter::SpotTurnOn()
+{
+	SpotLight->SetIntensity(8000.0f);
 }
 
 
