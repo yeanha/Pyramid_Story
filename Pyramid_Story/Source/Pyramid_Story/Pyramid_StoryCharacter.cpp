@@ -10,6 +10,10 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "Engine/LocalPlayer.h"
+#include "Components/SceneComponent.h"
+#include "Components/PointLightComponent.h"
+#include "Components/RectLightComponent.h"
+#include "Components/SpotLightComponent.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -35,6 +39,16 @@ APyramid_StoryCharacter::APyramid_StoryCharacter()
 	Mesh1P->CastShadow = false;
 	//Mesh1P->SetRelativeRotation(FRotator(0.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-30.f, 0.f, -150.f));
+
+	P_point = CreateDefaultSubobject<USceneComponent>(TEXT("P_point"));
+	P_point->SetupAttachment(RootComponent);
+	PointLight = CreateDefaultSubobject<UPointLightComponent>(TEXT("PointLight"));
+	PointLight->SetupAttachment(P_point);
+
+	S_point = CreateDefaultSubobject<USceneComponent>(TEXT("S_point"));
+	S_point->SetupAttachment(RootComponent);
+	SpotLight = CreateDefaultSubobject<USpotLightComponent>(TEXT("SpotLight"));
+	SpotLight->SetupAttachment(S_point);
 
 }
 

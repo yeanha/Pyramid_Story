@@ -36,7 +36,26 @@ class APyramid_StoryCharacter : public ACharacter
 	/** Move Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
 	UInputAction* MoveAction;
+
+
+	// 손전등, 라이터 선택
+	// 손전등을 선택하면 spotlight, 라이터를 선택하면 pointlight를 켬
+	UPROPERTY(EditAnywhere)
+	USceneComponent* P_point;
+
+	UPROPERTY(EditAnywhere)
+	class UPointLightComponent* PointLight;
 	
+	UPROPERTY(EditAnywhere)
+	USceneComponent* S_point;
+
+	UPROPERTY(EditAnywhere)
+	class USpotLightComponent* SpotLight;
+
+	// 문에 가까워지면 선택 UI가 뜸
+
+
+
 public:
 	APyramid_StoryCharacter();
 
