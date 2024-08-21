@@ -1,16 +1,3 @@
-[0821/125326.879:ERROR:os_crypt_win.cc(93)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
-[0821/125326.896:ERROR:os_crypt_win.cc(93)] Failed to decrypt: 키를 지정된 상태에서 사용하기에 부적합합니다. (0x8009000B)
-[0821/125337.143:ERROR:cache_util_win.cc(20)] Unable to move the cache: 액세스가 거부되었습니다. (0x5)
-[0821/125337.143:ERROR:cache_util.cc(144)] Unable to move cache folder C:/MidnightProject/Pyramid_Story/Pyramid_Story/Saved/webcache_4430\Cache to C:/MidnightProject/Pyramid_Story/Pyramid_Story/Saved/webcache_4430\old_Cache_000
-[0821/125337.143:ERROR:disk_cache.cc(184)] Unable to create cache
-[0821/125340.595:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 1
-[0821/125340.707:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 1
-[0821/125348.777:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[0821/125352.675:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 3
-[0821/125352.675:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 5
-[0821/125352.675:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 1
-[0821/125352.675:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 7
-[0821/125414.527:ERROR:database.cc(1707)] ReportingAndNEL sqlite error 2067, errno 0: UNIQUE constraint failed: reporting_endpoints.origin_scheme, reporting_endpoints.origin_host, reporting_endpoints.origin_port, reporting_endpoints.group_name, reporting_endpoints.url, reporting_endpoints.nik, sql: INSERT INTO reporting_endpoints (nik, origin_scheme, origin_host, origin_port, group_name, url, priority, weight) VALUES (?,?,?,?,?,?,?,?)
-[0821/125414.528:ERROR:database.cc(1707)] ReportingAndNEL sqlite error 2067, errno 0: UNIQUE constraint failed: reporting_endpoint_groups.origin_scheme, reporting_endpoint_groups.origin_host, reporting_endpoint_groups.origin_port, reporting_endpoint_groups.group_name, reporting_endpoint_groups.nik, sql: INSERT INTO reporting_endpoint_groups (nik, origin_scheme, origin_host, origin_port, group_name, is_include_subdomains, expires_us_since_epoch, last_access_us_since_epoch) VALUES (?,?,?,?,?,?,?,?)
-[0821/125527.371:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
-[0821/125527.435:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0821/214407.344:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0821/214620.405:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 1119
+[0821/214620.816:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 1121
