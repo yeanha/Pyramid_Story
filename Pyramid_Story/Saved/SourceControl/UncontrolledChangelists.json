@@ -18,9 +18,13 @@
 				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/particles/Textures/T_Fire_SubUV.uasset",
 				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/particles/Textures/T_Fire_Tiled_D.uasset",
 				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/particles/Textures/T_Water_N.uasset",
+				"C:/Program Files/Epic Games/UE_5.4/Engine/Content/MapTemplates/Materials/BasicAsset01.uasset",
+				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/Meshes/SM_swall1_2.uasset",
+				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/particles/Materials/M_Fire_SubUV.uasset",
+				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/particles/Materials/M_Heat_Distortion.uasset",
+				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Maps/MidNight_Map1.umap",
 				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/particles/Textures/M_Fire.uasset",
 				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Maps/MidNight_Map1.umap",
-				"C:/Program Files/Epic Games/UE_5.4/Engine/Content/MapTemplates/Materials/BasicAsset01.uasset",
 				"C:/MidnightProject/Pyramid_Story/Pyramid_Story/Content/SYH/Blueprints/BP_SYHPlayer.uasset",
 				"C:/MidnightProject/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/Meshes/SM_sarcophagus_lid.uasset",
 				"C:/MidnightProject/Pyramid_Story/Pyramid_Story/Content/SYH/Blueprints/BP_TestCoffin.uasset",
@@ -64,9 +68,7 @@
 				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/sound/S_prayeru.uasset",
 				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/sound/S_prayeru_Cue.uasset",
 				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/sound/S_wateru.uasset",
-				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/sound/S_wateru_Cue.uasset",
-				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/particles/Materials/M_Fire_SubUV.uasset",
-				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/particles/Materials/M_Heat_Distortion.uasset"
+				"C:/Projects/unreal/Pyramid_Story/Pyramid_Story/Content/JS_MidNight/Ancient_Egypt/sound/S_wateru_Cue.uasset"
 			]
 		}
 	]
