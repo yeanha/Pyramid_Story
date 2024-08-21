@@ -85,12 +85,12 @@ void APyramid_StoryCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 
 void APyramid_StoryCharacter::PointTurnOn()
 {
-	PointLight->SetIntensity(9000.0f);
+	PointLight->SetIntensity(40000.0f);
 }
 
 void APyramid_StoryCharacter::SpotTurnOn()
 {
-	SpotLight->SetIntensity(8000.0f);
+	SpotLight->SetIntensity(50000.0f);
 }
 
 
