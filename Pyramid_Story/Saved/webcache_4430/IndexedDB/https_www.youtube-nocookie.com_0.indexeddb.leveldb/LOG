@@ -1,0 +1,6 @@
+2024/08/21-10:47:11.686 6b90 Creating DB C:/project/Pyramid_Story/Pyramid_Story/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2024/08/21-10:47:11.693 6b90 Reusing MANIFEST C:/project/Pyramid_Story/Pyramid_Story/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/21-11:10:01.579 6938 Level-0 table #5: started
+2024/08/21-11:10:01.590 6938 Level-0 table #5: 1167 bytes OK
+2024/08/21-11:10:01.591 6938 Delete type=0 #3
+2024/08/21-11:10:01.591 6938 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
