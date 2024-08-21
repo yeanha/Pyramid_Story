@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+癤�// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -7,16 +7,16 @@
 #include "HttpActor.generated.h"
 
 
-USTRUCT()
-struct FResponse
-{
-	UPROPERTY()
-	FString RoomName;
-	UPROPERTY()
-	bool bYes;
-};
-
-TArray<FResponse> Responses;
+//USTRUCT()
+//struct FResponse
+//{
+//	UPROPERTY()
+//	FString RoomName;
+//	UPROPERTY()
+//	bool bYes;
+//};
+//
+//TArray<FResponse> Responses;
 
 UCLASS()
 class PYRAMID_STORY_API AHttpActor : public AActor
@@ -35,25 +35,20 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// 인터페이스를 위한 UI
-	UPROPERTY(EditDefaultsOnly)
-	TSubclassOf<class UUserWidget> SelectUIFactory1;
 
-	UPROPERTY(EditDefaultsOnly)
-	TSubclassOf<class UUserWidget> SelectUIFactory2;
+	//UFUNCTION()
+	//void OnMyClickSendPost();
 
-	UPROPERTY(EditDefaultsOnly)
-	TSubclassOf<class UUserWidget> SelectUIFactory3;
+	//UFUNCTION()
+	//void OnMyClickSend();
 
 	UPROPERTY()
-	class UHttpWidget* HttpUI;
+	TMap<FString, FString> arr;
+	TArray<FString> order;
 
+	//FString ServerURL = "https://192.168.1.18:8080/result";
+	//FString Key = "";
 
-	// 선택지3를 눌렀을때 서버로 정보 보내기
-	void RequestSelect3(FString url);
-
-	// 웹이미지를 백엔드 서버에서 수신
-	void OnResGetWebImageFromServer(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bConnectedSuccessfully);
 
 
 };

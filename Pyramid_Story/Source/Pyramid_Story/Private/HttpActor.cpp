@@ -23,19 +23,30 @@ void AHttpActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	HttpUI = Cast<UHttpWidget>(CreatWidget(GetWorld(), HttpUIFactory));
 
 }
 
 
+//void AHttpActor::OnMyClickSend()
+//{
+//	// HttpActor에게 보내기
+//	FString fullURL = FString::Printf(TEXT("%s?serviceKey=%s&pageNo=%s&numOfRows=%s"), *URL, *Key, *EditPageNo->GetText().ToString(), *EditNumOfRows->GetText().ToString());
+//
+//	UE_LOG(LogTemp, Warning, TEXT("%s"), *fullURL);
+//
+//	HttpActor->ReqNewBookInfo(fullURL);
+//}
 
-void AHttpActor::RequestSelect3(FString url)
-{
+//void AHttpActor::OnMyClickSendPost()
+//{
+//	TMap<FString, FString> selectData;
+//
+//
+//	FString json = UJsonParseLib::MakeJson(selectData);
+//
+//	
+//}
 
-}
 
-void AHttpActor::OnResGetWebImageFromServer(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bConnectedSuccessfully)
-{
 
-}
 
